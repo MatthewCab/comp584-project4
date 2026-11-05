@@ -27,6 +27,10 @@ button:hover {
     box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.2);
     transform: translateY(-5px);
 }
+/* buttons flash red for a second when pressed */
+button:active {
+    background-color: red !important;
+}
 
 
 .calculator-screen {
